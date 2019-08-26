@@ -1,0 +1,4 @@
+Respecto a la configuracion de correos tanto en el servidor como los que tienen gmail tambien involucra DNS
+Por defecto si un cliente no cuenta con correos de gmail, simplemente se le crea la pagina en nuestro servidor o se delegan los dns del otro servidor donde se alojaba
+y se crean los correos normalmente.
+El tema es si estaban trabajando con los correos de gmail, ahi lo que vamos a hacer es ir al whm, Edit DNS Zone, buscar el dominio en cuestion, editar y copiarlo casi tal cual como está configurado en pronexo

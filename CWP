@@ -1,0 +1,28 @@
+-antes de instalar cwp instalar *yum install vim
+								*yum install mc
+								*yum install openssh-server (y configurar)
+								*yum install wget
+
+ahora si
+cd /usr/local/src
+- wget http://centos-webpanel.com/cwp-el7-latest
+- sh cwp-el7-latest
+- reboot
+
+-en los servidores Amazon hay que abrir los puertos en la instancia que creamos e instalamos Centos, CWP, etc
+-dentro de la instancia "EC2"(en amazon), debemos ir a Security Groups, y editar el grupo que ya viene por defecto, lo tildas y vas a "Action" luego a edit inbound y ahi ya es el panel para abrir los puertos.
+-abrimos los siguientes puertos 20,21,22,25,53,80,110,143,443,465,587,993,995,2030,2031,2082,2083,2086,2087,2095,2096
+y 0.0.0.0/0 para todos los campos
+-luego entramos en la ip del servidor a traves del navegador y le ponemos :2030 o 2031 ejemplo: "18.191.42.157:2031"
+-usuario siempre va a ser root y la contraseña la misma que la de root del servidor (root, 36935593) en mi cwp
+
+https://www.tecmint.com/install-centos-web-panel-on-centos-7/
+
+
+
+
+
+
+
+
+

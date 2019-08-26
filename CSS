@@ -1,0 +1,21 @@
+para generar una nueva clase y luego modificarla con css sin perder las caracterisiticas que vienen por defento en el tema que utilicemos se hace lo siguiente, EJEMPLO:
+<div class="clasedeltheme_por_defecto"> 
+  <caracteristicas propias del theme>
+     elementos_afectados_por_las_caracteristicas
+  </caracteristicas propias del theme>
+  </div>
+
+  entonces agregamos una clase nuestra
+  <div class="clasedeltheme_por_defecto" "clase_gonza_para_modificar"> 
+  <caracteristicas propias del theme>
+     elementos_afectados_por_las_caracteristicas
+  </caracteristicas propias del theme>
+  </div>
+
+  (suponiendo que del parentesis para abajo es css)
+  .clase_gonza_para_modifica
+  {
+    background-color:#fff; //estas lineas modificaran el elemento que deseemos sin mezclarse con el codigo con el del theme
+    font-color:#000;
+  }
+

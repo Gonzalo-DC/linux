@@ -1,0 +1,52 @@
+Crear super usuario "su"
+{
+Para poder teclear su en consola y quedarnos en modo root, debemos teclear lo siguiente:
+
+sudo passwd root
+
+nos pedirá, en primer lugar, la contraseña pàra el usuario que hemos creado durante la instalación, y acto seguido
+
+Introduzca la nueva contraseña de UNIX:
+}
+
+
+Para encontar un archivo en todo el sistema, podemos buscarlo desde la carpeta raiz /
+
+{
+find / -name nombre_de_archivo
+Buscar archivos por nombre de usuario
+Si deseamos buscar un archivo por nombre de usuario podemos escribir:
+
+find / -user nombreusuario
+}
+
+
+sudo passwd oscar
+
+En ese momento nos pedira que introduzcamos la nueva contraseña para este usuario.
+
+De la misma forma, podemos modificar la contraseña del superusuario “root“:
+
+sudo passwd root
+
+
+
+LIMPIEZA RAPIDA SIN PROGRAMAS
+sudo apt clean
+sudo apt autoremove
+
+Configurar un servicio de logs
+Configurar rotación de logs
+Crear, modificar, listar, quitar tanto usuarios como grupos
+Implementar política de contraseñas
+Establecer restricciones de seguridad y control de archivos peligrosos
+Crear y controlar tareas programadas
+Realizar la configuración regional del entorno y periféricos
+Configurar el entorno de ventanas
+Configurar y compilar un kernel Linux
+Compilar paquetes a partir de código fuente
+Encriptar y firmar digitalmente archivos
+Realizar backups
+
+
+apt-cache search es para buscar paquetes en linux, si los tenes localmente o donde estan

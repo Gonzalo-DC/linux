@@ -1,0 +1,38 @@
+IP EN LISTA NEGRA POR LOGUEARSE MAL EN WEBMAIL
+
+-Entar en WHM, poner en buscador fire y entrar donde dice CongfigServer Security & Firewall
+
+
+-Ir ConfigServer Security & Firewall - csf v12.08
+
+-Ir a "Firewall Deny IPs"
+
+-Borrar linea del cliente solicitado, te debe decir su ip, luego de borrar poner change
+
+-Si el cliente no sabe su ip que entre a ident.me
+
+-Al terminar "Restart csf+lfd"
+
+Guardar la hora en que se bloqueó y buscar "Mail  queue manager" la horar del error y ver por que pasó
+
+IP EN LISTA NEGRA POR MANDAR CORREOS SPAM (por lo general es por virus)
+
+-Primero entrar al WHM 
+
+-escribir Queue en el buscador, entrar en el que dice "Mail Queue Manager", allí podes ver todos los mensajes que se envían, desde qué correos, si hay muchos enviados desde un mismo correo, es ahi el problema y a ése correo debe bloquearsele para que no envíe mas.
+
+-Ir al Cpanel de la página donde reside ese dominio web, escribir list account en el buscador, buscar la web y entrar por cpanel
+
+-Dentro del Cpanel ponemos en el buscador "Cuentas de correo electrónico", ingresamos y vemos todos los correos asociados a esa página, buscamos el correo que está haciendo spam y elegimos la opcion que dice "Manage suspension", ahí tenemos la opcion para deshabilitarle que envíe o reciba correos.
+
+-Luego vamos nuevamente al WHM y como dije dos pasos mas atrás buscamos los correos enviados y los borramos de la lista, ponemos en el buscador el correo que está haciendo spam, lo seleccionamos y ponemos "Delete Select".
+
+HAY OTRA OPCION PARA HACERLO DESDE SSH QUE MAS ADELANTE ESCRIBIRÉ
+
+-Entramos al servidor de pronexo por ssh
+
+-Luego entramos /etc/mailsips con vim, dentro ponemos la direccion web sin "www" y con la nueva ip al lado de la url
+
+-Por ultimo entramos en https://mxtoolbox.com, escribimos el numero de la ipbloqueada y le pedimos que la saque de lista negra explicando que es por motivo de virus.
+
+

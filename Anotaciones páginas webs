@@ -1,0 +1,27 @@
+
+
+Height in the Sticky Header: es para achicar el logo cuando bajas con el schroll
+
+En wordpress local para añadir plugins y hacer actualizaciones hay que agregar las siguientes lineas en el archivo wp-config.php
+
+/*** FTP login ***/
+define("FTP_HOST", "host-ftp");
+define("FTP_USER", "nombre-usuario-ftp");
+define("FTP_PASS", "password-ftp");
+/*** Definir FS_METHOD en WordPress para actualizar de manera automatica sin FTP ***/
+define("FS_METHOD","direct");
+
+
+tambien instalar el plugin "wp mail smtp" (tiene una palomita de dibujo)
+activarlo y configurarlo con el formato smtp.gmail.com, tls, 587, usuario de correo y contraseña
+
+
+
+MOVER UNA PAGINA NUEVA EN /WEB A PAGINA ORIGINAL QUITANDO LA VIEJA 
+Ejemplo: teniamos una pagina vieja www.terraz.com.ar, la dejamos y creamos una nueva en
+www.terraz.com.ar/web, una vez finalizada, hay que mover la pagina vieja para que la nueva que hicimos
+en /web pueda estar en www.terraz.com.ar
+Primero hay que crear una carpeta en el administrador de archivos con nombre recomendado web_old y mover todos los archivos de la página vieja
+Segundo hay que mover los archivo de la carpeta /web a la carpeta raiz de public_html
+Tercero entrar en la base de datos phpmyadmin,buscar la base de la nueva pagina, ir a la tabla jm_option y cambiar la url  www.terraz.com.ar/web por www.terraz.com.ar/ 
+Cuarto, puede suceder que algunas URLs no funcionen, entonces vamos a Ajustes, Enlaces permanentes, tildamos la opcion "Nombre de la entrada" y ponemos guardar cambios.

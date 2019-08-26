@@ -1,0 +1,7 @@
+abrir la imagen de instagram
+darle boton derecho, ver código fuente
+ctrl + f y buscar .jpg
+te va a aparecer una línea parecida a ese contenido
+copiar la url y pegarla en una nueva pestaña
+
+content="https://instagram.faep8-2.fna.fbcdn.net/vp/3ac18b39b1e45d1df222cb6eb578cef2/5D23B0EA/t51.2885-15/e35/44364830_1747780578666188_8962501113977990405_n.jpg?_nc_ht=instagram.faep8-2.fna.fbcdn.net" 

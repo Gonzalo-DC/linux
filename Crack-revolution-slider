@@ -1,0 +1,23 @@
+Cracking the Code
+In the website file manager/ftp navigation to this folder:
+homedirectory/wp-content/plugins/revslider/includes/operations.class.php
+Open operations.class.php in a code editing program (notepad++, coda, dreamweaver, etc), and scroll down to line 2353.
+
+$response = wp_remote_post('https://updates.themepunch.tools/activate.php', array(
+'user-agent' => 'WordPress/'.$wp_version.'; '.get_bloginfo('url'),
+'body' => array(
+'code' => urlencode($data['code']),
+//'email' => urlencode($data['email']),
+'version' => urlencode(RevSliderGlobals::SLIDER_REVISION),
+'product' => urlencode('revslider')
+)
+));
+
+$response_code = wp_remote_retrieve_response_code( $response );
+$version_info = wp_remote_retrieve_body( $response );
+
+if ( $response_code != 200 || is_wp_error( $version_info ) ) {
+return false;
+}
+
+We will replace lines 2353 to 2368 as seen in the image below:

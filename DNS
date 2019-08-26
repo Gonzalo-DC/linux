@@ -1,0 +1,60 @@
+https://verdns.com/
+
+
+ Contenidos Ver DNS
+
+    que es dns
+    verificar dns
+    comprobar dns
+    consulta dns
+    servidor dns
+    servidor dns no responde
+    cambiar dns
+    comprobar propagacion dns
+    puerto dns
+    servidor dns no disponible
+    dns publicos
+    mejores dns
+    mi dns
+
+que es dns
+
+Para empezar tal vez te preguntas que es dns. DNS son las siglas en inglés de Domain Name System, que traducido sería Sistema de Nombres de Dominio y como su nombre indica se trata de todo un sistema cuya tarea principal es traducir las direcciones IP en nombres de dominio que resulten más fácil de memorizar. Las direcciones IP son parte del protocolo, de lo que es dns, con el que se conectan y comunican a través de Internet los ordenadores y hoy por hoy también una enorme cantidad de dispositivos. Entonces, por ejemplo te costaría recordar la dirección IP 192.0.32.9 para escribirla en tu navegador, pero quizá no te costaría tanto recordar el nombre de dominio internic.net, que corresponde a la página de InterNIC, que provee información pública relacionada con lo que es dns en cuanto a los organismos públicos y privados que hacen parte de la infraestructura del sistema de nombres de dominio.
+verificar dns
+
+Verificar dns consiste en comprobar si los dns asignados al dominio están activos y respondiendo a las consultas de verificación de dns. Al verificar dns puedes saber si el dominio está resolviendo correctamente y por tanto siendo dirigido hacia la dirección IP del servidor de hosting donde se encuentra el sitio web de dicho dominio. Hay ocasiones en las que al verificar dns puedes encontrarte con registros dns incorrectos, o que el servidor dns no responde, o que la propagación dns está teniendo lugar y aún no se ha completado, o te aparece "servidor dns no disponible", o incluso que el dominio ya no está registrado. Por eso es importante verificar los dns y puedes hacerlo con esta herramienta online que te ofrecemos en VerDNS.
+comprobar dns
+
+Comprobar dns es una manera de verificar los dns autoritativos de un dominio y una manera de comprobar si el servidor dns o servidores dns asignados a dicho dominio están resolviendo las consultas dns de forma correcta, es decir, revelando la dirección IP y también diversos tipos de registro dentro de la zona DNS del dominio. Al comprobar dns obtendrás toda esta información, pero principalmente sabrás si el servidor dns no responde o no está disponible en ese momento. Comprobar dns también es un método rápido y fácil para conocer los dns de un dominio y, en la mayoría de casos, al ver los dns, darte cuenta también quién es el proveedor de hosting o el servicio de hosting en el que se encuentra alojado u hospedado el dominio. Comprobar dns y Ver dns es algo que puedes hacer con el formulario que encuentras en VerDNS en la parte superior de esta página web.
+consulta dns
+
+La consulta dns consiste primero en verificar o comprobar primero los dns de un dominio y luego de conocer los dns autoritativos para ese dominio, obtener los registros de la zona DNS, como pueden ser el tipo A (la dirección IPv4 del dominio), el tipo AAAA (la dirección IPv6 del dominio), el tipo MX (el servidor de correo del dominio), el tipo CNAME, el tipo TXT y otros datos que pueden estar incluidos en la zona DNS, así como el SOA, el TTL, etc. Al hacer la consulta dns lo primero que podrás darte cuenta es de si el servidor dns está o no disponible o si obtienes un mensaje de error o ningún mensaje en absoluto que pueda indicar que el servidor dns no responde. La consulta dns puedes hacerla con servicios de consultas de dns online como el que encuentras en VerDNS, el campo de consulta dns, comprobar dns o verificar dns al inicio de esta página web.
+servidor dns
+
+El servidor dns es una parte fundamental del Sistema de Nombres de Dominio (Domain Name System, en inglés), hay varios tipos y básicamente funciona mediante una estructura jeárquica, con un sistema distribuido y con el clásico modelo cliente-servidor. Al consultar los dns de un dominio la consulta se dirige primero al servidor dns raíz, que en realidad son varios servidores dns distribuidos por varios lugares del mismo y están identificados con las letras de la A a la M. Incluso cada uno de estos servidores dns raíz opera con servidores dns físicos ubicados en diversas partes del mundo, perfectamente sincronizados gracias la metodología de enrutamiento y direccionamiento de red Anycast. El servidor dns se encarga de las consultas dns de todos los dominios, empezando por la extensión de dominio, desde los clásicos .COM, .NET o .ORG, pasando por las extensiones de código de país como .ES para España, .MX para México o .CO para Colombia, hasta las nuevas extensiones de dominio (new gTLD) que hoy por hoy se cuentan por cientos, algunos tan sofisticados como .OLDNAVY hasta algunos con toque ecológico como .ORGANIC o el mismo .ECO.
+servidor dns no responde
+
+Al hacer la consulta dns es posible que el resultado sea que el servidor dns no responde. Y cuando el servidor dns no responde dejan de resolver los registros DNS asociados al dominio, incluyendo el registro A (para el caso de IPv4) y el registro AAAA (para el caso de IPv6) con lo cual el sitio web deja de funcionar, pues los registros A y AAAA son los que indican la dirección de IP del servidor web (el hosting) donde está hospedado el sitio web. Si el servidor dns no responde entonces no es posible hacer la consulta dns ni tampoco verificar los registros dns de la zona dns del dominio. Algunas soluciones posibles para cuando ocurre que el servidor dns no responde son: verificar que el puerto dns está abierto, reiniciar el servidor dns, verificar que el nombre de dominio es el correcto y verificar o comprobar que el dominio está registrado efectivamente.
+cambiar dns
+
+El procedimiento para cambiar dns puede referirse a dos situaciones. Una, la de cambiar dns en el panel del registrador de dominios donde fue registrado el dominio. Esta operación se hace normalmente cuando se ha cambiado de servicio de hosting y por tanto se cambian los dns de un proveedor para indicar los dns del nuevo proveedor de web hosting. La otra situación a la que puede referirse el cambiar dns puede ser cuando se hacen cambios en la dirección IP que apunta hacia el servidor dns físico. En el primer caso, para cambiar dns por cambios en el servicio de hosting, se debe contactar a la empresa (registrador) donde se registró el dominio. En el segundo caso, lo habitual es que se haga cargo de este procedimiento el administrador de sistemas que opera el servidor dns.
+comprobar propagacion dns
+
+Para comprobar propagacion dns puedes utilizar la herramienta de consulta dns online que encuentras en la parte superior de Ver DNS y así poder ver la propagacion dns de tu dominio. Comprobar propagacion dns consiste en hacer la consulta dns de tu dominio y verificar o comprobar a partir de los resultados de la consulta dns que los respectivos registros DNS muestran los cambios en la zona dns, bien sea por el cambio de dns como tal o bien sea porque se han modificado algunos registros en la zona dns del dominio. Al ver la propagacion dns cuando ha finalizado, la consulta dns revelará que los nuevos dns o los nuevos registros dns ya están activos y resolviendo correctamente para el dominio en cuestión. La propagación dns está sujeta al tiempo de vida (TTL, por sus siglas en inglés) de los registros de la zona dns del dominio. La propagacion dns depende principalmente de la velocidad de actualizacion de cada ISP, es decir, de cada proveedor de acceso a Internet, en cada país. Para el caso de la propagacion dns españa, hasta hace algunos años solía ser muy lenta y por tanto los registros dns tardaban en actualizarse, sobre todo para el caso de los dominios .ES, pues el operador del registro actualizaba los dns solo dos veces al día. Pero hoy en día la actualización es casi instantánea y por tanto la propagacion de dns en españa para los dominios .ES suele ser muy rápida, cuestión de segundos o minutos como mucho.
+puerto dns
+
+En cuanto al puerto dns, el servidor dns usa el protocolo UDP y el puerto dns número 53. Si el puerto dns no responde, no podrás consultar, comprobar ni verificar los dns de tu dominio.
+servidor dns no disponible
+
+Tras una consulta dns es posible que el resultado sea "servidor dns no disponible". Puede deberse a que el servidor dns no responde temporalmente. Y si el resultado es servidor dns no disponible, entonces no es posible consultar la zona dns de un dominio, ni verificar sus registros dns ni comprobar el estado dns o de la propagación de dns de un dominio.
+dns publicos
+
+Algunos operadores de servicios de Internet ponen a disposición del público dos o más dns publicos para al menos dos situaciones: dns publicos como servidores para resolver consultas dns a nivel local y que se configuran en un servidor, en un ordenador, en un router o incluso en un móvil. Los operadores que ofrecen dns publicos de esta manera suelen incluir algunas características interesantes, como por ejemplo mayor velocidad de resolución de consultas dns, mayor seguridad y a veces mayor privacidad. Ejemplos de este tipo de dns publicos son los que ofrecen por ejemplo: CloudFlare, con la magnífica dirección IP 1.1.1.1 (y 1.0.0.1), extremadamente fácil de acceder y de recordar. También Google, con direcciones IP también fáciles de recordar: 8.8.8.8 y 8.8.4.4. O el servicio de dns publicos de OpenDNS, con las direcciones IP 208.67.222.222 y 208.67.220.220.
+
+Y la otra situación de dns publicos puede ser la del servicio de dns que ofrecen muchos proveedores, algunos con coste y otros gratis. La mayoría de registradores de dominios ofrecen hoy en día el servicio de dns hosting gratis por la compra del dominio. También hay operadores de dns hosting que cobran por este servicio, como por ejemplo el servicio Route 53 de Amazon. Y hay otros que lo ofrecen de manera gratuita, como por ejemplo el de CloudFlare, que siendo principalmente un proveedor de servicio CDN ofrece gratis el servicio de dns hosting. Y también el ya veterano Hurricane Electric con su servicio gratuito disponible en dns.he.net.
+mejores dns
+
+Algunos de los mejores dns públicos los ofrecen los grandes operadores de Internet, como por ejemplo Google y CloudFlare, pero hay muchos más. Es posible que en tu país aún siga siendo más efectivo el servicio dns de tu ISP local. Intentar hacer una lista con los mejores dns puede ser plausible si te interesan las medidas en milisegundos, pero hoy por hoy los servidores dns tienden a ser muy confiables por parte de los operadores que los administran. Entre los mejores dns indudablemente se encuentran los de CloudFlare, Google, OpenDNS, Norton ConnectSafe y Comodo Secure DNS.
+mi dns
+
+Y si te preguntas ¿cuál es mi dns? puedes saberlo mediante la herramienta online que encuentras en la parte superior de Ver DNS. Es un formulario en el que puedes consultar los dns de tu dominio. Y para el caso concreto de "quiero saber mi dns", con tan solo ver también la parte superior de Ver DNS, justo arriba del formulario donde vas a poner tu nombre de dominio, podrás ver tu IP remota, la IP que corresponde a tu ISP y desde la cual te estás conectando a Internet. Y a través de esa dirección IP podrás averiguar más datos, de acuerdo con tu interés y con los conocimientos avanzados que dispongas.

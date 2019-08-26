@@ -1,0 +1,24 @@
+Configurar audio 5.1 linux
+
+Abrimos la terminal
+
+nano o vim /etc/pulse/daemon.conf
+
+Dentro cambiamos los valores viejos que trae por los siguientes:
+
+resample-method = speex-float-6
+enable-remixing = yes
+enable-lfe-remixing = yes
+lfe-crossover-freq = 120
+
+default-sample-format = s24le
+default-sample-rate = 44100
+alternate-sample-rate = 48000
+default-sample-channels = 6
+default-channel-map = front-left,front-right,rear-left,rear-right,front-center,lfe
+
+
+
+Finalmente guardamos los cambios en el gestor de pulse, cerramos y en la terminal (esta aún no la cerramos 😉 ) colocamos alsamixer. Aquí nos encontraremos con todas las configuraciones de sonido de ALSA (el sistema de audio por defecto en Linux), buscamos la opción channel y lo subimos hasta el máximo que se pueda (6ch para el surround 5.1).
+
+Reiniciamos desde la terminal (Reboot o init6)

@@ -1,0 +1,8 @@
+/etc/hosts
+
+el archivo hosts presente en todos los sistemas operativos sirve para redirigir al navegador a donde desees, ya sea de manera local, a una web, etc
+
+Ejemplo 
+127.0.0.1       localhost
+127.0.1.1       gonza-dc
+192.168.0.212   odoo12.com

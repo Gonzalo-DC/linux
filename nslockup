@@ -1,0 +1,14 @@
+apt-get install dnsutils para instalar nslockup
+
+nslockup sirve para ver hacia donde apunta un dominio
+
+escribimos en la terminal nslockup, y luego enter y nos aparecerá esto ">"
+
+luego escribiremos el dominio que queremos ver hacia donde apunta sin el "www", por ejemplo panchochevez.com y ahi nos tirará la ip del servidor 
+
+Este seria el resultado
+
+Name:	panchochevez.com
+Address: 200.58.112.94
+Name:	panchochevez.com
+Address: 2800:6c0:2::41

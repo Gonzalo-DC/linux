@@ -1,0 +1,7 @@
+Para importar fuentes en ubuntu, o al menos en GIMP, debemos ir a la carpeta que indicamos mas abajo para pegar la fuente previamente descargada y descomprimida
+
+Se pega la carpeta entera con todas las fuentes que contiene, ya que generalmente si bien queremos bajar una fuente, se baja un pack
+
+/usr/share/fonts/truetype/
+
+Hay que darle permisos para poder pegar dentro de dicha carpeta  

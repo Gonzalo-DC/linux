@@ -1,0 +1,38 @@
+Crear cuenta en github para subir repositorios
+
+
+Creacion de usuario Local para poder hacer commits
+
+git config --global user.email "you@example.com"
+git config --global user.name "Tu Nombre"
+
+git init /es para iniciar un proyecto dentro de la carpeta donde ejecutamos ese comando
+
+git add /es para agregar mas archivos dentro del git
+git add. /agrega directamente todos los archivos que creaste/modificaste
+
+git status /es para ver que archivos agregamos al git y cuales no
+
+git commit /es para guardar los pasos que hemos realizados dentro del git  A- Si pongo solo git commit entra en un archivo donde tenes que elegir el nombre del commit
+git commit -m "titulo del commit"  B- No entra al archivo git y el nombre lo elegis entre las comillas
+
+
+git checkout -- nombredelarchivo /es para volver el commit al ultimo paso que se guardó
+
+git diff -- nombredelarchivo /es para ver las diferencias de las modificaciones que se hicieron
+
+git branch /muestra los proyectos que hay, no commit, sino proyectos que se pueden hacer en paralelo, donde pueden tener los 5
+primeros commits igual y luego el resto diferentes, ya que no es el mismo proyecto
+
+git branch nombredelotroproyecto /creo otro proyecto partiendo desde el proyecto actual, si tenias 30 commits, este proyecto 
+tambien los tendrá.
+
+git checkout nombredelotroproyecto /te cambia al proyecto que quieras para continuar trabajando en el mismo
+
+git remote add origin https://github.com/Gonzalo-DC/proyecto-prueba.git   /para dpnde vamos a almacenar el codigo en github, es diferente la url con cada proyecto diferente que subas
+
+git push -u origin master /sube el archivo a github pidiendote usuario y contraseña de github
+
+
+
+

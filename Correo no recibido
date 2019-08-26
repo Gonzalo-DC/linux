@@ -1,0 +1,8 @@
+cuando un cliente te llama porque dice que no le llegan los correos  que envia a su destinatario
+
+-Entrar en el Cpanel de la pagina del cliente, poner monitoreo en el buscador, entrar y dentro poner el correo del destinatario a quien supuestamente
+no le llega el correo, si está todo en verde significa que está todo bien y que el destinatario o se hace el boludo o alguien le abre su correo
+
+-Probando enviandote un correo a vos mismo: entras al cpanel de la pagina del cliente, te vas a cuentas de correo, elegis el correo del cliente en cuestion y pones "mas" acceder a webmail, elegir horde o cualquiera, ahi accedés a un correo y te lo envias a vos mismo por ejemplo a gm@pronexo y verificas si funciona
+
+
